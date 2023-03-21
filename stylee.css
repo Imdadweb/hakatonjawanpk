@@ -1,0 +1,335 @@
+/* Header Section */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: #ffffff00;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  width: 200px;
+  text-align: top;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #2c2c2c;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.background{
+background-image: url("https://jevelin.shufflehound.com/burger-shop/wp-content/uploads/sites/44/2020/09/Ellipse-708.jpg");
+background-size: cover;
+background-position: center;
+height: 600px;
+/* display: flex; */
+align-items: center;
+justify-content: center
+
+}
+
+header nav:hover{
+background-color: #ffffff;
+color: black;
+}
+
+.background1{
+background-image:url("https://jevelin.shufflehound.com/burger-shop/wp-content/uploads/sites/44/2020/09/Layer-692.png");
+background-size: cover;
+background-position: center;
+height: 520px;
+/* display: flex; */
+align-items: center;
+justify-content: center
+}
+
+
+/* About Section*/
+
+.image-text-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: 50px;
+
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-container {
+  flex: 1;
+}
+
+.text-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.text-container p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.BTN{
+background-color: black;
+color: white;
+font-weight: bold;
+}
+
+/* Cart Section */
+
+.cart{
+display: flex;
+
+}
+
+.cartl{
+background-color: #fcf8f7;
+height: 610px;
+width: 450px;
+border-radius: 10px;
+margin: 10px;
+padding: 6px;
+overflow: hidden;
+}
+.cartl img{
+    text-align: center;
+}
+.BTN{
+background-color:#ff3939 ;
+color: white;
+font-weight: bolder;
+text-align: start;
+}
+.BTN1{
+/* background-color:#000000 ; */
+color: rgb(0, 0, 0);
+font-weight: bolder;
+display: inline-block;
+}
+.BTN1:hover{
+color: #ff3939;
+
+
+}
+.BTN2{
+display: block;
+text-align: justify;
+}
+
+.cart2{
+background-color: #fcf8f7;
+height: 300px;
+width: 200px;
+border-radius: 10px;
+margin: 10px;
+padding: 6px;
+display: grid;
+}
+
+
+.Productback{
+background-color: #000000dc;
+height: 700px;
+width: 100%;
+color: white;
+}
+
+.Productbackimg{
+margin: auto;
+padding: auto;
+
+}
+.Productbacktex{
+/* margin: 50px;
+padding: 56px; */
+font-weight: bolder;
+font-size: xx-large;
+}
+.BTC{
+background-color: none;
+margin: auto;
+/* margin-top: 600px;
+margin-left: -50px; */
+/* height: 50px;
+width: 120px; */
+}
+
+.Product{
+background-color:#fcf8f7 ;
+height: 380px;
+width: 280px;
+overflow: hidden;
+margin: 6px;
+margin-top: auto;
+}
+
+.secproduct{
+margin: 10px;
+margin-top: 20px;
+
+}
+
+.BTC{
+background-color: black;
+color: white;
+}
+
+/* Footer */
+
+footer {
+  background-color: #ffffff;
+  padding: 30px 0;
+  font-size: 14px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.logo-container {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.logo-container p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #333;
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.contact-container {
+  flex-basis: 30%;
+  margin: 10px;
+}
+
+.contact-container h3 {
+  margin-top: 0;
+}
+
+.contact-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-container li {
+  margin-bottom: 10px;
+}
+
+.contact-container li i {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.newsletter-container {
+  flex-basis: 30%;
+}
+
+.newsletter-container h3 {
+  margin-top: 0;
+}
+
+.newsletter-container form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter-container input[type="email"] {
+  flex-basis: 70%;
+  padding: 8px;
+  border: cyan;
+  border-radius: 2px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+}
+
+.newsletter-container button[type="submit"] {
+  flex-basis: 28%;
+  background-color: #ff3939;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: auto;
+  margin-top: 8px;
+  font-weight: bolder;
+}
+
+.newsletter-container button[type="submit"]:hover {
+  background-color: #1d1d1d;
+}
+
+.credits {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.display-1{
+color: white;
+font-size:190px;
+}
+
+
